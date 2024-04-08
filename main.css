@@ -33,7 +33,8 @@ img {
 .container {
     /* 327px */
     max-width: 20.4375rem;
-    min-width: 320px;
+    /* 320px */
+    min-width: 20rem;
     /* 154px */
     margin: 9.625rem auto;
     border: 1px solid var(--black);
