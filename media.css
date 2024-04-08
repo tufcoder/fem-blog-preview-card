@@ -2,6 +2,8 @@
     .container {
         /* 384px */
         max-width: 24rem;
+        /* 218px */
+        margin: 13.625rem auto;
         transition: box-shadow .2s ease-in-out;
     }
 
