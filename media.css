@@ -1,5 +1,34 @@
 @media (min-width: 1440px) {
-    body {
-        background-color: black;
+    .container {
+        /* 384px */
+        max-width: 24rem;
+        transition: box-shadow .2s ease-in-out;
+    }
+
+    .container:hover {
+        box-shadow: 1rem 1rem 0 0 var(--black);
+    }
+
+    .tag,
+    .publish-date {
+        /* 14px */
+        font-size: .875rem;
+    }
+
+    .title {
+        /* 24px */
+        font-size: 1.5rem;
+    }
+
+    .p {
+        font-size: 1rem;
+    }
+
+    .title a {
+        transition: color .2s ease-in;
+    }
+
+    .title a:hover {
+        color: var(--yellow);
     }
 }

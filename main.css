@@ -88,6 +88,11 @@ img {
     font-weight: 800;
 }
 
+.title a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .p {
     /* 14px */
     font-size: .875rem;
@@ -108,6 +113,8 @@ img {
 }
 
 .author p {
+    /* 14px */
+    font-size: .875rem;
     font-weight: 800;
 }
 
