@@ -4,11 +4,12 @@
         max-width: 24rem;
         /* 218px */
         margin: 13.625rem auto;
-        transition: box-shadow .2s ease-in-out;
+        transition: all .2s ease;
     }
 
     .container:hover {
         box-shadow: 1rem 1rem 0 0 var(--black);
+        transform: translate(-1%, -1%);
     }
 
     .content {
