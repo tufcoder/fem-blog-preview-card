@@ -1,0 +1,47 @@
+:root {
+    --black: hsl(0, 0%, 7%);
+    --white: hsl(0, 0%, 100%);
+    --grey: hsl(0, 0%, 50%);
+    --yellow: hsl(47, 88%, 63%);
+    --link: hsl(228, 45%, 44%);
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+    margin: 0;
+    border: 0;
+    outline: 0;
+}
+
+body {
+    font-size: 1rem;
+    font-family: 'Figtree', sans-serif;
+}
+
+.p {
+    font-size: 1rem;
+}
+
+.attribution {
+    margin: 0 auto;
+    width: fit-content;
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: var(--link);
+}
+
+footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
