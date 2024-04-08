@@ -11,6 +11,11 @@
         box-shadow: 1rem 1rem 0 0 var(--black);
     }
 
+    .content {
+        /* 25.008px */
+        line-height: 1.563rem;
+    }
+
     .tag,
     .publish-date {
         /* 14px */
