@@ -120,14 +120,17 @@ img {
 }
 
 .attribution {
-    margin: 0 auto;
-    width: fit-content;
-    font-size: 11px;
+    /* 11px */
+    font-size: 0.6875rem;
     text-align: center;
+    color: var(--grey);
 }
 
 .attribution a {
-    color: var(--link);
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Figtree', sans-serif;
+    color: var(--black);
 }
 
 footer {

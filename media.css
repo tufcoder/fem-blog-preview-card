@@ -40,4 +40,8 @@
     .title a:hover {
         color: var(--yellow);
     }
+
+    .attribution {
+        font-size: 1rem;
+    }
 }
